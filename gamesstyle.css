@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: neon;
+    src: url("Fonts/neon_80s/Neon.ttf");
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neon', sans-serif
+}
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('imgs/fakurian-design-F93PQmh4krI-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    transform-style: preserve-3d
+}
+
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    top: 12rem;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer
+}
+
+.container .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+
+.container .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d
+}
+
+.container .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.container .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    /* background: linear-gradient(95deg, rgb(48, 24, 114), rgb(35, 21, 161)); */
+    background: rgb(39, 16, 102); 
+    transform-style: preserve-3d;
+    transform: rotateY(180deg)
+}
+
+.container .box:hover .body {
+    transform: rotateY(180deg)
+}
+
+.container .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    height: 23rem;
+    background: linear-gradient(45deg, #FE0061, #FFEB3B);
+    transform: translateZ(100px)
+}
+
+.nav-item:hover{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+.btn{
+    position: relative;
+    left: 3.9rem;
+    bottom: .5rem;
+    width: 7rem;
+    font-size: 13px;
+    height: 1.6rem;
+    background-color: rgb(48, 170, 240);
+    color: #fff;
+    border-radius: 16px;
+}
+
+
+h2{
+    top: 5rem;
+    font-family: 'neon', sans-serif 
+}
+
+
+
+@media screen and (max-width:365px){
+    html{
+        zoom: 0.5;
+    }
+    .container .box{
+        zoom: 1.5;
+    }
+}
