@@ -17,9 +17,9 @@ menu.addEventListener("click", () => {
       centeredSlides: true,
       slidesPerView: 'auto',
       coverflowEffect: {
-        rotate: 20,
+        rotate: 50,
         stretch: 0,
-        depth: 200,
+        depth: 100,
         modifier: 1,
         slideShadows: true,
       },
