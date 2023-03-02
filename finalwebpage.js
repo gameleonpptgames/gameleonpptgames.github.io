@@ -12,7 +12,7 @@ menu.addEventListener("click", () => {
 //3D Carousel//
 
     var swiper = new Swiper('.swiper-container', {
-//       effect: 'coverflow',
+      effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
