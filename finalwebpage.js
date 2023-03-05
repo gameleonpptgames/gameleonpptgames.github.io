@@ -15,7 +15,7 @@ menu.addEventListener("click", () => {
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
-      slidesPerView: '1',
+      slidesPerView: 'auto',
       coverflowEffect: {
         rotate: 20,
         stretch: 0,
