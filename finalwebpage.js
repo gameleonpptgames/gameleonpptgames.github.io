@@ -1,11 +1,11 @@
 // Navbar
-// const menu = document.querySelector(".menu");
-// const navbar = document.querySelector(".navbar");
+const menu = document.querySelector(".menu");
+const navbar = document.querySelector(".navbar");
 
-// menu.addEventListener("click", () => {
-//   navbar.classList.toggle("change");
-//   menu.classList.toggle('change')
-// });
+menu.addEventListener("click", () => {
+  navbar.classList.toggle("change");
+  menu.classList.toggle('change')
+});
 // End of Navbar
 
 
@@ -34,7 +34,7 @@
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 5000,
+        delay: 4000,
         disableOnInteraction: false,
       },
       pagination: {
