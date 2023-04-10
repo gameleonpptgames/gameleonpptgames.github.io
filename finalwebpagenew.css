@@ -3,8 +3,6 @@
   src: url("neon_80s/Neon.ttf");
 }
 
-
-
  body {
   background: #fff;
   color: #000;
@@ -189,7 +187,6 @@
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
   } 
 
-
 /* End of 3D Carousel */
 
 
@@ -197,9 +194,6 @@
 
 
 /* Responsive webpage Section*/
-
-
-
 @media (max-width: 932px){
   html{
     font-size: 90%;
