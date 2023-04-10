@@ -15,13 +15,16 @@ menu.addEventListener("click", () => {
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
-      slidesPerView: 'auto',
+      slidesPerView: '7',
       coverflowEffect: {
         rotate: 20,
         stretch: 0,
         depth: 100,
         modifier: 1,
         slideShadows: true,
+      },
+        pagination: {
+        el: ".swiper-pagination",
       },
 //       loop: true,
 //       autoplay: {
