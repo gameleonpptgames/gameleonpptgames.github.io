@@ -19,7 +19,7 @@ menu.addEventListener("click", () => {
       coverflowEffect: {
         rotate: 20,
         stretch: 0,
-        depth: 100,
+        depth: 200,
         modifier: 1,
         slideShadows: true,
       },
