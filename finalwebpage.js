@@ -23,11 +23,11 @@ menu.addEventListener("click", () => {
         modifier: 1,
         slideShadows: true,
       },
-      loop: true,
-      autoplay: {
-        delay: 900,
-        disableOnInteraction: false,
-      },
+//       loop: true,
+//       autoplay: {
+//         delay: 900,
+//         disableOnInteraction: false,
+//       },
     });
 
 //End of Carousel//
