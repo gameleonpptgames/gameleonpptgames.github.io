@@ -11,15 +11,26 @@ menu.addEventListener("click", () => {
 
 //3D Carousel//
 
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
+//     var swiper = new Swiper('.swiper-container', {
+//       effect: 'coverflow',
+//       grabCursor: true,
+//       centeredSlides: true,
+//       slidesPerView: 'auto',
+//       coverflowEffect: {
+//         rotate: 20,
+//         stretch: 0,
+//         depth: 200,
+//         modifier: 1,
+//         slideShadows: true,
+ var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
       grabCursor: true,
       centeredSlides: true,
-      slidesPerView: 'auto',
+      slidesPerView: "auto",
       coverflowEffect: {
-        rotate: 20,
+        rotate: 50,
         stretch: 0,
-        depth: 200,
+        depth: 100,
         modifier: 1,
         slideShadows: true,
       },
