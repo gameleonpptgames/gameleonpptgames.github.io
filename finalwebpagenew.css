@@ -5,7 +5,7 @@
 
 
 
-/*  body {
+ body {
   background: #fff;
   color: #000;
   display: flex;
@@ -18,7 +18,7 @@
   position: relative;
   overflow-x: hidden;
 }
- */
+
 .title{
   font-family: 'neon', sans-serif;
   font-size: 5rem;
@@ -161,7 +161,7 @@
 
 /* 3D Carousel */
  
-/*  .swiper-container
+.swiper-container
  {
     width: 250vw; 
     padding-top: 3.12rem;
@@ -177,16 +177,16 @@
     width: 21.90rem;
 
 }
- */
-/* .swiper-slide
+ 
+.swiper-slide
   {
     background-position: center;
     background-size: cover;
      width: 21.87rem;
     height: 14.37rem;
     background: #000;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006); */
-  } */
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+  } 
  
 /* End of 3D Carousel */
 
