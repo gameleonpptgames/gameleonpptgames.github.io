@@ -183,13 +183,13 @@
   {
     background-position: center;
     background-size: cover;
-     width: 21.87rem;
+    width: 25rem;
     height: 14.37rem;
     background: #000;
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
   } 
 
- 
+/* 21.87rem */
 /* End of 3D Carousel */
 
 
@@ -201,9 +201,6 @@
 
 
 @media (max-width: 932px){
-  footer{
-    overflow-y: hidden ;
-  }
   html{
     font-size: 90%;
   }
